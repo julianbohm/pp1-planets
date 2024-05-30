@@ -20,6 +20,14 @@ h1, h2, h3 {
 /* Header */
 header {
 background-color: #000000;
+position: fixed;
+z-index: 99;
+width: 100%;
+box-shadow: 0 3px 3px gray;
+display: flex;
+justify-content: center;
+align-items: baseline;
+
 }
 
 /* Main */
