@@ -19,6 +19,7 @@ h1, h2, h3, h4 {
 }
 p {
     font-family: 'Inter' sans-serif;
+    text-indent: 30px;  
 }
 /* Header */
 header {
@@ -26,7 +27,7 @@ background-color: #000000;
 position: fixed;
 z-index: 99;
 width: 100%;
-box-shadow: 0 3px 3px gray;
+box-shadow: 3px 3px 3px gray;
 display: flex;
 justify-content: center;
 align-items: baseline;
@@ -46,7 +47,7 @@ height: 60px;
 }
 /* Main */
 main {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding: 10px 0;
