@@ -1,7 +1,7 @@
 
 /* Header */
 header {
-background-color: aqua;
+background-color: #203141;
 }
 
 /* Main */
@@ -12,5 +12,10 @@ main {
 
 /* footer */
 footer {
-background-color: lightcoral;
+background-color:#203141;
 }
+
+footer li {
+    color:#ffffff ;
+}
+
