@@ -30,19 +30,18 @@ box-shadow: 0 3px 3px gray;
 display: flex;
 justify-content: center;
 align-items: baseline;
-height: 50px;
+height: 60px;
 
 }
 #logo {
     display: flex;
     flex-direction: column;
-    width: 15vw;
-    height: 15vw;
+    width: 45px;
+    height: 45px;
     position: center;
     border-radius: 50%;
     margin-top: 5px;
-    max-width: 50px;    
-    max-height: 50px;
+    
     
 }
 /* Main */
