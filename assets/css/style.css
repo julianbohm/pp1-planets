@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Roboto' sans-serif;
     letter-spacing: 1px;
     color: #ffffff;
@@ -30,7 +30,13 @@ align-items: baseline;
 height: 40px;
 
 }
-
+#logo {
+    display: flex;
+    flex-direction: column;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: center;
+}
 /* Main */
 main {
     margin-top: 40px;
