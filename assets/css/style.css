@@ -56,6 +56,11 @@ main {
    position: relative;
 }
 
+ #planets h3 {
+    color: #000000;
+    padding-top: 10px;
+}
+
 /* footer */
 footer {
 background-color:#203141;
