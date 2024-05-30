@@ -53,14 +53,20 @@ main {
 /* footer */
 footer {
 background-color:#203141;
+width: 100%;
+height: ;
 }
 
 #social-network {
 
+    
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    height: 30px;
+    padding-top: 5px;
     
 }
+
 
