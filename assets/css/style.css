@@ -17,6 +17,9 @@ h1, h2, h3, h4 {
     letter-spacing: 1px;
     color: #ffffff;
 }
+p {
+    font-family: 'Inter' sans-serif;
+}
 /* Header */
 header {
 background-color: #000000;
@@ -27,27 +30,29 @@ box-shadow: 0 3px 3px gray;
 display: flex;
 justify-content: center;
 align-items: baseline;
-height: 40px;
+height: 50px;
 
 }
 #logo {
     display: flex;
     flex-direction: column;
-    width: 13vw;
-    height: 13vw;
+    width: 15vw;
+    height: 15vw;
     position: center;
     border-radius: 50%;
+    margin-top: 5px;
+    max-width: 50px;    
+    max-height: 50px;
+    
 }
 /* Main */
 main {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
+    padding: 10px 0;
     /*Make main element take up any surplus space*/
     flex: 1 0 auto;
-
-
 
 
 }
@@ -57,7 +62,6 @@ main {
     height: 150px;
    position: relative;
 }
-
 
 
 #planets img {
