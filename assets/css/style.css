@@ -34,7 +34,7 @@ z-index: 99;
 width: 100%;
 box-shadow: 3px 3px 3px gray;
 display: flex;
-justify-content: center;
+justify-content:space-evenly;
 align-items: baseline;
 height: 60px;
 }
@@ -64,9 +64,21 @@ nav {
     box-shadow: 3px 3px 3px gray;
     padding: 0 1rem;
     display: none;
+    top:100%
 
 }
+/* NAv toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;  
 
+}
+.nav-toggle-label{
+    font-size: large;
+
+}
 #logo {
     display: flex;
     flex-direction: column;
