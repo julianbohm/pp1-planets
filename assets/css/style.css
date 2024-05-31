@@ -50,6 +50,7 @@ header a {
 }
 #menu >li {
     margin-bottom: 0.5em;
+    color: rgb(250, 245, 239);
 }
 
 .active {
@@ -79,17 +80,9 @@ nav {
     font-size: large;
 
 }
-#logo {
-    display: flex;
-    flex-direction: column;
-    width: 45px;
-    height: 45px;
-    position: center;
-    border-radius: 80%;
-    margin-top: 5px;
     
     
-}
+
 /* Main */
 main {
     margin-top: 50px;
@@ -120,14 +113,14 @@ main {
 
 }
  #planets h2 {
-    color: #000000;
+    color: #093141;
     font-family: ;
     padding: 20px 0 0;
     font-size: 25px;
     text-align: center;
 }
 #planets h4 {
-    color: #000000;
+    color: #093141;
     padding: 10px;
     font-size: 25px;
 
