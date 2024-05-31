@@ -37,8 +37,36 @@ display: flex;
 justify-content: center;
 align-items: baseline;
 height: 60px;
+}
+header a {
 
 }
+#menu {
+    color: #ffffff;
+    font-size: 110%;
+    letter-spacing: 5px;
+    list-style-type: none ;
+    
+}
+#menu >li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
+
+}
+/*Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #093141;
+    width: 100%;
+    box-shadow: 3px 3px 3px gray;
+    padding: 0 1rem;
+    display: none;
+
+}
+
 #logo {
     display: flex;
     flex-direction: column;
@@ -81,6 +109,7 @@ main {
 }
  #planets h2 {
     color: #000000;
+    font-family: ;
     padding: 20px 0 0;
     font-size: 25px;
     text-align: center;
@@ -111,8 +140,9 @@ height: ;
     
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) 
+
+/* Media query: tablets and larger (700px and up) */
+@media screen and (min-width: 700px) 
 
 
 
