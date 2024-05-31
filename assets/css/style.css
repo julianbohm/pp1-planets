@@ -38,12 +38,12 @@ justify-content:space-evenly;
 align-items: baseline;
 height: 60px;
 }
-header a {
-
+#logo {
+    margin-top: 15px;
 }
+
 #menu {
-    color: #ffffff;
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 5px;
     list-style-type: none ;
     
@@ -66,6 +66,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top:100%
+    
 
 }
 /* NAv toggle*/
