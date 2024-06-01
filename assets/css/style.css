@@ -15,6 +15,7 @@ body {
 
 .white {
     font-family: 'Roboto' sans-serif;
+    font-size: 28px;
     letter-spacing: 1px;
     color:rgb(250, 245, 239);
     margin:2px;
@@ -115,6 +116,7 @@ main {
 }
 
 
+
 #planets img {
     object-fit: cover;
     float: inherit;
@@ -165,8 +167,36 @@ margin-top: 50px;
 #planets {
     columns: 2;
 }
+.white {
+    font-family: 'Roboto' sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color:rgb(250, 245, 239);
+    margin:2px;
+    padding-right: 100px;
+    
+}
+
 }
 
 
 /* Large devices: laptops and desktops, (992 px and up)*/
-@media screen and (min-width: 992px) 
+@media screen and (min-width: 992px) {
+
+    #hero {
+    background: url(../images/solar-system.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+   position: relative;
+}
+.white {
+    font-family: 'Roboto' sans-serif;
+    font-size: 100px;
+    letter-spacing: 1px;
+    color:rgb(250, 245, 239);
+    margin:2px;
+    padding-right: 50px;
+    
+}
+
+}
