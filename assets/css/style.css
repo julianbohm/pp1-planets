@@ -40,26 +40,30 @@ height: 60px;
 }
 #logo {
     margin-top: 15px;
+    color:rgb(250, 245, 239) ;
 }
 
 #menu {
     font-size: 150%;
     letter-spacing: 5px;
-    list-style-type: none ;
-    
-}
-#menu >li {
+    list-style-type: none;
     margin-bottom: 0.5em;
+    color: rgb(250, 245, 239);    
+}
+
+a {
     color: rgb(250, 245, 239);
+    text-decoration: none;
 }
 
 .active {
     border-bottom: 1px solid #ffffff;
 
 }
+
 /*Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
+    position:absolute;
     background-color: #093141;
     width: 100%;
     box-shadow: 3px 3px 3px gray;
@@ -69,7 +73,7 @@ nav {
     
 
 }
-/* NAv toggle*/
+/* Nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -81,7 +85,6 @@ nav {
     font-size: large;
 
 }
-    
     
 
 /* Main */
