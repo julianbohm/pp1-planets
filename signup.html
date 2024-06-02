@@ -12,9 +12,9 @@
     <title>Our Solar System</title>
     <!--Favicon is here-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!--Stylesheets-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -34,7 +34,8 @@
             <h2>Our Solar System</h2>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"
+                style="color: #ffffff;"></i></label>
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
@@ -47,7 +48,30 @@
 
     <!--Main-->
     <main>
-       
+        <h2>Connect With Us</h2>
+        <div class="Connect">
+            <form action="https://formdump.codeinstitute.net">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email" required>
+
+                <label for="planet-form">Favorite Planet</label>
+    <select id="planet-form" name="planet-form">
+      <option value="mercury">Mercury</option>
+      <option value="venus">Venus</option>
+      <option value="earth">Earth</option>
+      <option value="mars">Mars</option>
+      <option value="jupiter">Jupiter</option>
+      <option value="saturn">Saturn</option>
+      <option value="uranus">Uranus</option>
+      <option value="neptune">Neptune</option>
+    </select>
+<input type="submit" value="Submit">
+
+        </div>
 
     </main>
 
