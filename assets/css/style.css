@@ -189,10 +189,31 @@ margin-top: 50px;
     padding-top: 10px;
     
 }
-footer i:hover {
-    color: #093141;
+
+#signup {
+    background:url(../images/background-header.jpg) no-repeat center center/cover;
 }
 
+input[type=text], select {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 6px 2px 16px;
+   
+        
+  }
+
+input[type=submit] {
+    background-color: #203141;
+    color: rgb(250, 245, 239);
+    padding: 12px 20px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+}
 
 
 /* Media query: tablets and larger (700px and up) */
