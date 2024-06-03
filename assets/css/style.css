@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*General styles*/
 body {
     min-height: 100vh;
@@ -11,90 +12,100 @@ body {
     flex-direction: column;
     background-color: rgb(250, 245, 239);
 }
+
 .wrapper {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
+
 .white {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto'sans-serif;
     font-size: 1.5rem;
     letter-spacing: 1px;
-    color:rgb(250, 245, 239);
+    color: rgb(250, 245, 239);
     padding: 2rem;
 }
+
 p {
-    font-family: 'Inter' sans-serif;
-    text-indent: 30px;  
+    font-family: 'Inter'sans-serif;
+    text-indent: 30px;
     font-weight: lighter;
     color: rgb(102, 102, 102);
     margin: 1px;
 }
+
 /* Header */
 header {
-background-color: #093141;
-position: relative;
-z-index: 99;
-width: 100%;
-box-shadow: 3px 3px 3px gray;
-display: flex;
-justify-content:center;
-align-items: baseline;
-height: 60px;
+    background-color: #093141;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 3px 3px 3px gray;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60px;
 }
+
 #logo {
     margin-top: 15px;
     margin-right: 15px;
-    color:rgb(250, 245, 239);
+    color: rgb(250, 245, 239);
 }
-/*not sure
-#logo:hover{
-    color:rgb(102, 102, 102)
-}
-*/
+
+
 #menu {
     font-size: 120%;
     letter-spacing: 5px;
     list-style-type: none;
     margin-bottom: 0.5em;
-    color: rgb(250, 245, 239); 
+    color: rgb(250, 245, 239);
     line-height: 40px;
-    }
+}
+
 a {
     color: rgb(250, 245, 239);
     text-decoration: none;
-    font-size:100%;
+    font-size: 100%;
 }
-a:hover{
-    color:rgb(102, 102, 102)
+
+a:hover {
+    color: rgb(102, 102, 102)
 }
+
 .active {
     border-bottom: 1px solid #ffffff;
 }
+
 .simple-white {
     color: white;
 }
+
 /*Navbar styles with dropdown toggle */
 nav {
-    position:absolute;
+    position: absolute;
     background-color: #093141;
     width: 100%;
     box-shadow: 3px 3px 3px gray;
     padding: 0 1rem;
     display: none;
-    top:100%
-    
+    top: 100%
 }
+
 /* Nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
-    display: none;  
+    display: none;
 }
-.nav-toggle-label{
+
+.nav-toggle-label {
     font-size: large;
 }
+
 /* Main */
 main {
     display: flex;
@@ -103,32 +114,37 @@ main {
     /*Make main element take up any surplus space*/
     flex: 1 0 auto;
 }
+
 #hero {
     background: url(../images/solar-system.jpg) no-repeat center center/cover;
     width: 100%;
     height: 150px;
-   position: relative;
+    position: relative;
 }
+
 .sub-title {
     width: 100%;
     height: 70px;
-    
-         
-    /*why is not center?*/
+
+
+
 }
+
 .sub-title {
     p {
         color: #093141;
-    padding: 10px;
-    font-size: 35px;
-    font-weight: 800;
-    justify-content: center;
-    text-align: center;
+        padding: 10px;
+        font-size: 35px;
+        font-weight: 800;
+        justify-content: center;
+        text-align: center;
+    }
 }
-}
+
 #planets {
     padding-top: 10px;
 }
+
 #planets img {
     object-fit: cover;
     float: inherit;
@@ -136,71 +152,88 @@ main {
     height: 100%;
     justify-content: center;
     padding: 50px 0 10px;
-    
+
 }
- #planets h2 {
+
+#planets h2 {
     color: #093141;
     font-family: 'Roboto';
     padding: 20px 0 0;
     font-size: 25px;
     text-align: center;
-    
- } 
-    
-    
+
+}
+
+
 #planets h4 {
     color: #093141;
     padding: 10px;
     font-size: 25px;
-   
-    
-    
+
+
+
 }
+
 /* footer */
 footer {
-background-color:#203141;
-width: 100%;
-margin-top: 50px;
+    background-color: #203141;
+    width: 100%;
+    margin-top: 10px;
 }
+
 #social-network {
-    
+
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     height: 30px;
     padding-top: 10px;
-    
+
 }
+
 #signup {
-    background:url(../images/background-header.jpg) no-repeat center center/cover;
+    background: url(../images/background-header.jpg) no-repeat center center/cover;
 }
+
 #connect {
-  background-color: rgba(19,29,29,0.7);
-  padding: 1rem;
-  margin: 0 1rem;
+    background-color: rgba(19, 29, 29, 0.7);
+    padding: 1rem;
+    margin: 0 1rem;
+    max-width: 20rem;
+    
+
 }
+
 .contact-form {
-  padding: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    max-width: 20rem;
+
 }
-input[type=text], select {
+
+input[type=text],
+select {
     width: 98%;
-    padding: 12px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin: 6px 2px 16px;    
-  }
-  input[type=email], select {
-    width: 98%;
-    padding: 12px;
+    padding: 8px 12px;
     border: 1px solid gray;
     border-radius: 10px;
     box-sizing: border-box;
     margin: 6px 2px 16px;
-   
-        
-  }
+}
+
+input[type=email],
+select {
+    width: 98%;
+    padding: 8px 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 6px 2px 16px;
+
+
+}
+
 input[type=submit] {
     background-color: #203141;
     color: rgb(250, 245, 239);
@@ -209,45 +242,65 @@ input[type=submit] {
     border: solid 1px white;
     border-radius: 1rem;
     float: right;
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
+.submit:hover {
+    color: rgb(102, 102, 102)
+}
+
+    .white-center {
+        font-family: 'Roboto'sans-serif;
+        letter-spacing: 1px;
+        color: rgb(250, 245, 239);
+        font-size: 2rem;
+        text-align: center;
+    }
+
 /* Media query: tablets and larger (700px and up) */
 @media screen and (min-width: 700px) {
-#planets {
-    columns: 2;
-}
-.white {
-    font-family: 'Roboto' sans-serif;
-    letter-spacing: 1px;
-    color:rgb(250, 245, 239);
-    font-size: 2rem;
-}
-.sub-title {
-    p {
-        color: #093141;
-    padding: 10px;
-    font-size: 50px;
-    font-weight: 800;
-    justify-content: center;
-    text-align: center;
-}
-}
-}
+    #planets {
+        columns: 2;
+    }
+    .white-center{
+        font-size: 3rem;
+    }
+
+    .white {
+        font-family: 'Roboto'sans-serif;
+        letter-spacing: 1px;
+        color: rgb(250, 245, 239);
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        p {
+            color: #093141;
+            padding: 10px;
+            font-size: 50px;
+            font-weight: 800;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+ 
 /* Large devices: laptops and desktops, (992 px and up)*/
 @media screen and (min-width: 992px) {
     #planets {
-     columns: 4;   
+        columns: 4;
     }
+
     #hero {
-    background: url(../images/solar-system.jpg) no-repeat center center/cover;
-    width: 100%;
-    height: 300px;
-   position: relative;
-}
-.white {
-    font-family: 'Roboto' sans-serif;
-    letter-spacing: 1px;
-    color:rgb(250, 245, 239);
-    font-size: 3rem;
-}
+        background: url(../images/solar-system.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .white {
+        font-family: 'Roboto'sans-serif;
+        letter-spacing: 1px;
+        color: rgb(250, 245, 239);
+        font-size: 3rem;
+    }
 }
