@@ -16,7 +16,7 @@ body {
 .wrapper {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+        margin: 0 auto;
 }
 
 .white {
@@ -24,7 +24,7 @@ body {
     font-size: 2rem;
     letter-spacing: 1px;
     color: rgb(250, 245, 239);
-    padding: 1,8rem;
+    padding: 3 rem
 }
 
 p {
@@ -64,8 +64,8 @@ header {
     line-height: 40px;
 }
 
-a {
-    color: rgb(250, 245, 239);
+.menu {
+    color: rgb(250, 242, 239);
     text-decoration: none;
     font-size: 100%;
 }
@@ -191,9 +191,17 @@ footer {
     padding-top: 10px;
 
 }
+#up {
+    color: #093141;
+    text-align: right;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 80%;
+}
 
 #signup {
     background: url(../images/background-header.jpg) no-repeat center center/cover;
+   
 }
 
 #connect {
@@ -263,7 +271,7 @@ input[type=submit] {
         columns: 2;
     }
     .white-center{
-        font-size: 10rem;
+        font-size: 5rem;
     }
 
     .white {
@@ -288,6 +296,7 @@ input[type=submit] {
             align-content: center;
             }
  
+            
 /* Large devices: laptops and desktops, (992 px and up)*/
 @media screen and (min-width: 992px) {
     #planets {
