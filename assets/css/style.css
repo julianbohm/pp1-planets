@@ -52,6 +52,7 @@ header {
     margin-top: 15px;
     margin-right: 15px;
     color: rgb(250, 245, 239);
+    text-decoration: none;
 }
 
 
@@ -250,7 +251,7 @@ input[type=submit] {
     border: solid 1px white;
     border-radius: 1rem;
     float: right;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 /* not working */
 .submit:hover {
@@ -265,13 +266,21 @@ input[type=submit] {
         text-align: center;
     }
 
+    .white-signup {
+        font-family: 'Roboto'sans-serif;
+        letter-spacing: 1px;
+        color: rgb(250, 245, 239);
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
 /* Media query: tablets and larger (700px and up) */
 @media screen and (min-width: 700px) {
     #planets {
         columns: 2;
     }
     .white-center{
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .white {
