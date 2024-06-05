@@ -19,6 +19,7 @@ body {
     margin: 0 auto;
 }
 
+
 .white {
     font-family: 'Roboto'sans-serif;
     font-size: 2rem;
@@ -378,15 +379,12 @@ input[type="submit"]:hover {
     }
     #sun p {
         font-size: 2rem;
-         margin-left: -300px;
-        margin-right: -300px;
+     
     }
 
 }
 
-
-
-    
+  
 
 
     /* Large devices: laptops and desktops, (992 px and up)*/
@@ -402,16 +400,24 @@ input[type="submit"]:hover {
 
         #hero {
                 
-            
-          height: 350px;
+                 height: 350px;
            
-            
-        }
+            }
 
         .white {
             font-family: 'Roboto'sans-serif;
             letter-spacing: 1px;
             color: rgb(250, 245, 239);
             font-size: 5rem;
+        }
+    }
+
+     /* Large devices: laptops and desktops, (992 px and up)*/
+     @media screen and (min-width: 992px) {
+
+        .wrapper {
+            width: 100%;
+            max-width: 2000px;
+            margin: 0 auto;
         }
     }
