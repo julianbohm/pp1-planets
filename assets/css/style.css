@@ -18,10 +18,10 @@ body {
 }
 .white {
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    letter-spacing: 1px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
     color: rgb(250, 245, 239);
-    padding: 3rem
+    padding: 1rem
 }
 p {
     font-family: 'Inter', sans-serif;
