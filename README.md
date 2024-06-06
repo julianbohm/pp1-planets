@@ -53,7 +53,22 @@ The Sun page is quite self explanatory, because it is our star and the one that 
 
 ![Testing results](/assets/images/testing.png)
 
+### Accessibility
 
+* The pages ran through Lighthause and confirma that the performance, accessibility, best practices and SEO for Laptop version.
+* Test for mobil was almost the same, at exception of the performance, it was quite volatil, form 60 bis 91. 
+* All the internal and external links were tested manually and everything works.
+* The contact form was tested and works, all the field are required, including the Email fild that requered a email address only. the submit button also works.
+
+![Form submited](/assets/images/datasubmit.png)
+
+
+
+### Code Testing
+
+* HTML and CSS code where tested and all the error where corrected unil no errors were found.
+
+![Html Validator](/assets/images/htmlchecker.png)
 
 
 
