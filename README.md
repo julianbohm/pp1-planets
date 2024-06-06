@@ -46,3 +46,42 @@ The Sun page is quite self explanatory, because it is our star and the one that 
 
 ![The Sign up page](/assets/images/signuppage.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+## Credits
+
+### Code
+* My go to library for html and css was, good clear examples to learn from was [W3 Schools](https://www.w3schools.com/).
+* A good tool as a community to review the problems other peers had encounter was [stack overflow](https://slack.com/). 
+* A lot of inspiration came from the Coders Coffeehouse project, the Love Running project, and a project my mentor share SophieTiger/optimal_health. (https://github.com/SophieTiger/optimal_health).
+
+
+### Content
+* Information is taken from a book for kids call Astromyths: The Solar System Like You Have Never Seen It Before. 
+* 	All html and css was taken from the Code Institute education, big part from Love Running, Coders Coffeehouse and their Tutors.
+
+### Media
+* The photos are from the free stock from [Unsplash](https://unsplash.com/).
+* For all the Icons [fontawesome](https://fontawesome.com/).
+* To resize all images [tinypng](https://tinypng.com/).   
+* Favicon from Twitter Twemoji from here [Favicon](https://favicon.io/favicon-converter/).
+
+### Acknowledgements
+* A very special thanks to all the peers from my group at Code academy, they have helped me a lot with feedback, tips, and specially words or encouragement. 
+* I also want to thank my Mentor Spencer who show me the way and gave my valuable knowledge to navigate the coding road. 
+* And the tutors how helps me understand and fix, problems during this project.
+
+
+
+
+
