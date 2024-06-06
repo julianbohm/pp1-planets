@@ -26,7 +26,7 @@ body {
 p {
     font-family: 'Inter', sans-serif;
     text-indent: 30px;
-    font-weight: lighter;
+    font-weight: normal;
     color: rgb(102, 102, 102);
     margin: 1px;
     padding: 0 10px;
@@ -305,6 +305,10 @@ input[type="submit"]:hover {
     #sun p {
         font-size: 2rem;
      
+    }
+    #social-network {
+        font-size: 1.5rem;
+        height: 40px;
     }
 }
     /* Large devices: laptops and desktops, (992 px and up)*/
