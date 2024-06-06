@@ -47,6 +47,13 @@ The Sun page is quite self explanatory, because it is our star and the one that 
 ![The Sign up page](/assets/images/signuppage.png)
 
 
+### Features left to implement
+
+## Testing 
+
+![Testing results](/assets/images/testing.png)
+
+
 
 
 
@@ -59,6 +66,7 @@ The Sun page is quite self explanatory, because it is our star and the one that 
 
 
 ## Credits
+
 
 ### Code
 * My go to library for html and css was, good clear examples to learn from was [W3 Schools](https://www.w3schools.com/).
@@ -80,6 +88,8 @@ The Sun page is quite self explanatory, because it is our star and the one that 
 * A very special thanks to all the peers from my group at Code academy, they have helped me a lot with feedback, tips, and specially words or encouragement. 
 * I also want to thank my Mentor Spencer who show me the way and gave my valuable knowledge to navigate the coding road. 
 * And the tutors how helps me understand and fix, problems during this project.
+
+-----
 
 
 
